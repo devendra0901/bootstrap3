@@ -1,0 +1,206 @@
+html,body {
+	  /*background: url("../images/background.jpg");*/
+ 
+}
+
+
+
+/* ----------------------------------
+	Overwriting of bootstrap classes
+	--------------------------------- */
+
+
+.navbar-brand {
+	padding: 13px 15px;
+	background: url("../images/flag.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+.form-control{
+    background-color: #f9e3e3;
+    color: #040e00;
+}
+
+
+#searchInput{
+	width: 80%;
+}
+
+#logo{
+	padding-top: 5px;
+	text-align: center;
+	background: url(../images/flag.png);
+}
+
+
+/* --------------------------------------
+   Styling Carousel
+   -------------------------------------- */
+
+#myCarousel {
+	margin-top: 60px;
+}
+
+.carousel-caption h4 {
+	font-size: 100px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+	background: url('../images/coorg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#slide2 {
+	background: url('../images/coorgrajaseat.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#slide3 {
+	background: url('../images/jogfalls1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#slide4 {
+	background: url('../images/hampi1edited.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+/* ------------------------
+   Sections
+   ------------------------*/
+
+.panel-heading{
+	text-transform: uppercase;
+}
+
+.row{
+text-align:center;
+color:black;
+margin-top:15px;
+}
+
+.panel img{
+	margin-left: 0;
+	width: 300px;
+	height: 300px;
+	position: center;
+	 /*border-radius: 200px;*/
+}
+
+.tab-content{
+	text-align: left;
+}
+
+
+#video{
+	padding-top: 0;
+}
+
+#video img{
+	height: 400px;
+	width: 370px;
+}
+/* ---------------
+    Footer Styling
+   -----------------*/
+
+ #icons h2{
+	margin-top: 0px;
+	color: White;
+ }  
+
+ #footer2 li{
+ 	list-style-type: none;
+ 	display: inline;
+ 	padding-right: 60px;
+ }
+
+ #footer2 li a{
+ 	color: White;
+ }
+
+#footerlist{
+	text-align: left;
+	padding-left: 0;
+}
+
+#copyright{
+	text-align: right;
+	color: White;
+}
+footer {
+	background-color: #0c0c0c;
+}
+
+#subscribe{
+	text-align: left;
+	padding-left: 0;
+	color: White;
+}
+
+#footer2 ul{
+	padding-left: 0;
+}
+
+#icons{
+	text-align: right;
+}
+
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 1200px) {
+	
+	#myCarousel .item { height: 310px; }
+	
+	.panel img{
+		width: 200px;
+	}
+	
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 50px;
+	}
+
+	#video img{
+	height: 400px;
+	width: 200px;
+}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 500px; }
+	
+
+}
+
+
