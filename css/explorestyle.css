@@ -16,16 +16,25 @@
    -------------------------------------- */
 
 /* Portrait & landscape phone */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 	.panel img{
-		width: 50px;
+		height: 250px;
+		width: 300px;
 	}
 	
 	
 }
 
+@media (min-width: 480px) {
+	.panel img{
+		height: 200px;
+		width: 300px;
+	}
+	
+}
+
 /* Landscape phone to portrait tablet */
-@media (max-width: 1200px) {
+@media (min-width: 768px) {
 	
 	#myCarousel .item { height: 310px; }
 	
@@ -44,10 +53,20 @@
 	
 }
 
+@media (min-width: 992px){
+	.panel img{
+		width: 260px;
+		height: 300px;
+	}
+}
+
 /* Large desktop */
 @media (min-width: 1200px) {
 
 	#myCarousel .item { height: 500px; }
+	.panel img{
+		width: 300px;
+		height: 300px;
+	}
 	
-
 }
