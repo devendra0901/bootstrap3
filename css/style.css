@@ -32,7 +32,9 @@ html,body {
 #logo{
 	padding-top: 5px;
 	text-align: center;
-	background: url(../images/flag.png);
+	background: url(../images/flag1.jpg);
+	color: #010313;
+	padding-bottom: 6px;
 }
 
 
@@ -80,6 +82,10 @@ html,body {
 /* ------------------------
    Sections
    ------------------------*/
+
+.panel{
+	    background-color: #93aaad;
+}
 
 .panel-heading{
 	text-transform: uppercase;
@@ -167,6 +173,10 @@ footer {
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+	.panel img{
+		height: 300px;
+		width: 200px;
+	}
 	
 	
 }
